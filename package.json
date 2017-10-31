@@ -1,6 +1,6 @@
 {
   "name": "react-router-redux-multi",
-  "version": "5.0.0-alpha.8",
+  "version": "5.0.0-alpha.8.1",
   "description": "Redux bindings for React Router",
   "license": "MIT",
   "authors": [
