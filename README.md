@@ -1,6 +1,6 @@
 # react-router-redux-multi
 
-[![build status](https://img.shields.io/travis/reactjs/react-router-redux-multi/master.svg?style=flat-square)](https://travis-ci.org/loanmarket/react-router-redux-multi)
+[![build status](https://img.shields.io/travis/loanmarket/react-router-redux-multi/master.svg?style=flat-square)](https://travis-ci.org/loanmarket/react-router-redux-multi)
 
 > **Keep your state in sync with your *multiple* routers** :sparkles::sparkles::sparkles::sparkles:
 
