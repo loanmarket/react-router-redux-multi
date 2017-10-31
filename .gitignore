@@ -2,5 +2,7 @@ es
 node_modules
 umd
 test
+*.log
 /*.js
 !rollup.config.js
+
