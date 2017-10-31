@@ -10,7 +10,7 @@ Use this as a drop-in replacement for react-router-redux when you have multiple 
 
 ## Why fork?
 
-React Router Redux does not allow you to sync multiple routers to your redux store. See this issue: https://github.com/ReactTraining/react-router/issues/5663. This is understandable if you only have a single global router that is linked to your URL history. However, we believe that routers should be more extensible and generic than that. You may also want to use routing logic elsewhere to present components which you do not explicitly want stored in your browers url history. We initially developed this fork as a pull request to generate conversation around the best approaches to implementating support for multiple routers. However, React Redux Router are not willing to support multiple routers, so we have now published this for anyone else who encounters this use case.
+React Router Redux does not allow you to sync multiple routers to your redux store. See this issue: https://github.com/ReactTraining/react-router/issues/5663. This is understandable if you only have a single global router that is linked to your URL history. However, we believe that routers should be more extensible and generic than that. You may also want to use routing logic elsewhere to present components which you do not explicitly want stored in your browser's url history. We initially developed this fork as a pull request to generate conversation around the best approaches to implementing support for multiple routers. However, React Redux Router are not willing to support multiple routers, so we have now published this for anyone else who encounters this use case.
 
 ## Installation
 
@@ -83,9 +83,9 @@ You can also create actions which target a specific history object by using the 
 * `namespacedGoBack(namespace)()`
 * `namespacedGoForward(namespace)()`
 
-These actions will triger state changes only on the history identified by that namespace. The same namespace should be passed to actions, as is passed to ConnectedRouter and routerMiddleware.
+These actions will trigger state changes only on the history identified by that namespace. The same namespace should be passed to actions, as is passed to ConnectedRouter and routerMiddleware.
 
-Or you create an object with all namespaced actions via `namespacedRouterActions(namespace)`.
+Or you can create an object with all namespaced actions via `namespacedRouterActions(namespace)`.
 
 *Usage:*
 ```js
