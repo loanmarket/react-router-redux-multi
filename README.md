@@ -108,7 +108,7 @@ connect(
     pushToMemory: namespacedPush('/foo'),
   }, dispatch);
 )
-
+```
 
 
 ## Example Usage
