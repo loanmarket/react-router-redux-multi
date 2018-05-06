@@ -48,7 +48,7 @@
     "eslint-plugin-react": "^7.4.0",
     "gzip-size": "^4.0.0",
     "jest": "^21.2.1",
-    "pretty-bytes": "^4.0.2",
+    "pretty-bytes": "^5.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-redux": "^5.0.6",
