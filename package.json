@@ -56,7 +56,7 @@
     "redux": "^3.6.0",
     "rollup": "^0.50.1",
     "rollup-plugin-babel": "^3.0.7",
-    "rollup-plugin-uglify": "^2.0.1"
+    "rollup-plugin-uglify": "^6.0.1"
   },
   "directories": {
     "example": "examples"
