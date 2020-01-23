@@ -24,7 +24,7 @@
     "watch": "babel ./modules -d . --ignore __tests__ --watch",
     "clean": "git clean -fdX .",
     "lint": "eslint modules",
-    "test": "jest"
+    "test": "jest --config ./modules/__tests__/jest.config.js"
   },
   "peerDependencies": {
     "react": ">=15"
@@ -38,7 +38,7 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
-    "babel-jest": "^21.2.0",
+    "babel-jest": "^23.6.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.21",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.5.0",
@@ -47,7 +47,7 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-react": "^7.12.1",
     "gzip-size": "^4.1.0",
-    "jest": "^22.0.0",
+    "jest": "^23.6.0",
     "pretty-bytes": "^4.0.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
