@@ -68,7 +68,7 @@
     "react-dom": "^16.7.0",
     "react-redux": "^5.1.1",
     "react-test-renderer": "^16.7.0",
-    "redux": "^3.6.0",
+    "redux": "^4.0.1",
     "rollup": "^0.50.1",
     "rollup-plugin-babel": "^4.0.1",
     "rollup-plugin-uglify": "^2.0.1"
