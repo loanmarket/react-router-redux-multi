@@ -1,6 +1,6 @@
 {
   "name": "@loan_market/react-router-redux-multi",
-  "version": "5.0.0",
+  "version": "5.0.0-alpha.8.2",
   "description": "Redux bindings for React Router",
   "license": "MIT",
   "authors": [
@@ -20,7 +20,6 @@
   "module": "es/index.js",
   "scripts": {
     "build": "node ./tools/build.js",
-    "prepare": "node ./tools/build.js",
     "prepublishOnly": "node ./tools/build.js",
     "watch": "babel ./modules -d . --ignore __tests__ --watch",
     "clean": "git clean -fdX .",
