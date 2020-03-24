@@ -30,7 +30,6 @@ if (process.env.NODE_ENV === 'production') {
         pure_getters: true,
         unsafe: true,
         unsafe_comps: true,
-        warnings: false
       }
     })
   )
